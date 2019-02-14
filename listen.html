@@ -1,0 +1,43 @@
+<!doctype html>
+<!-- If multi-language site, reconsider usage of html lang declaration here. -->
+<html lang="en"> 
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>TEXT TO SPEECH</title>
+	<link rel="shortcut icon" href="favicon.ico" />	
+	<link rel="stylesheet" href="./assets/vendor/font/fontawesome-all.min.css">
+	<link rel="stylesheet" media="screen" href="./assets/css/style.css">
+	<link rel="stylesheet" media="screen" href="./assets/css/listen.css">
+</head>
+<body>
+	<div class="container">
+		<!-- Start of the header -->
+		<header>
+		</header>
+		<!-- end of header -->
+		<!-- Start of main -->
+		<main>
+			<div class="wrapper">
+					<h1>Text to Speech</h1>
+				<div class="text-to-speech">
+					<button id="stopbtn" class="stophide" title="Stop"><span class="stopbtn"></span></button>
+					<button title="Listen" class="speakbtn" id="speakbtn">
+						<span class="fas fa-headphones"></span>
+					</button>
+					<textarea id="data" placeholder="Enter text here to listen"></textarea>
+				</div>
+			</div>
+		</main>
+		<!-- End of main -->
+		<!-- start of footer -->
+		<footer>	
+			<div class="wrapper">	
+				<a href="index.html" title="Back" class="backbtn">Back<span class="fas fa-angle-right"></span></a>
+			</div>
+		</footer>
+		<!-- end of footer -->
+	</div>
+	<script src="./assets/js/listen.js"></script>
+</body>
+</html>

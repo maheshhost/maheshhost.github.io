@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>SPEECH TO TEXT</title>
+	<link rel="shortcut icon" href="favicon.ico" />	
+	<link rel="stylesheet" href="./assets/vendor/font/fontawesome-all.min.css">
+	<link rel="stylesheet" media="screen" href="./assets/css/style.css">
+	<link rel="stylesheet" media="screen" href="./assets/css/record.css">
+</head>
+<body>
+	<div class="container">
+		<header></header>
+		<main>
+			<!-- wrapper starts here -->
+			<div class="wrapper">
+				<!-- speech to text part start here -->
+				<h1>Speech to Text</h1>
+				<div class="speech-to-text">
+					<button id="stopbtn" class="stophide" title="Stop"><span class="stopbtn"></span></button>
+					<div id="results" class="result">Words display here</div>
+					<button title="Record" class="btn-record" id="recordbtn">
+						<span class="fa fa-microphone"></span>
+					</button>
+				</div>
+				<!-- speech to text part start here -->
+			</div>
+			<!-- wrapper ends here -->
+		</main>
+		<footer>
+			<div class="wrapper">
+				<a href="index.html" title="Back" class="backbtn">Back<span class="fas fa-angle-right"></span></a>
+			</div>
+		</footer>
+	</div>
+</body>
+<script src="./assets/js/record.js"></script>
+</html>

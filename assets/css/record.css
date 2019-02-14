@@ -1,0 +1,45 @@
+body {
+	background-color: #f6b93b;
+}
+
+button {
+	border: 1px solid #16a085;
+  background-color: #16a085;
+}
+
+button:hover {
+	border: 1px solid #4cd137;
+	background-color: #4cd137;
+}
+
+.stop,
+.stophide {
+	width: 20px;
+	height: 20px;
+	border: 1px solid #c23616;
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	background-color: #c23616;
+}
+
+.stop:hover { 
+	background-color: #c23616;
+	border:  1px solid #c23616;
+}
+
+.stophide { display: none; }
+
+h1 {
+	margin: 20px auto;
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	line-height: 1.5;
+}
+
+.interim {
+	color: #999;
+}

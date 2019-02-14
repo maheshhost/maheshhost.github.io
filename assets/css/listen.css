@@ -1,0 +1,38 @@
+body {
+	background-color: #f1c40f;
+}
+
+button {
+	border: 1px solid #c23616;
+	background-color: #c23616;
+}
+
+button span {
+	margin-left: 6px;
+}
+
+button:hover {
+	border: 1px solid #e84118;
+	background-color: #e84118;
+}
+
+.stop,
+.stophide {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 15px;
+	right: 15px;
+}
+
+.stophide { display: none; }
+
+h1 {
+	margin: 20px auto;
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	line-height: 1.5;
+}
