@@ -1,1 +1,1 @@
-GOTO https://maheshhost.github.io
+GOTO <a href="https://maheshhost.github.io" target="blank">
